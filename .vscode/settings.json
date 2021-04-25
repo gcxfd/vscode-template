@@ -2,10 +2,11 @@
     "editor.formatOnSave": true,
     "emeraldwalk.runonsave": {
         "autoClearConsole": true,
+        "shell": "bash",
         "commands": [
             {
-                "match": ".toml$",
-                "cmd": "echo `date +\"%Y-%m-%d %H:%M:%S\"`&&cd ${workspaceRoot} && bat ${file}"
+                "match": ".*",
+                "cmd": "echo -e `date +\"%Y-%m-%d %H:%M:%S\"`'\n'&&cd ${workspaceRoot} && bat ${file} && echo -e '\n'"
             }
         ]
     }
