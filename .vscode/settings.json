@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "emeraldwalk.runonsave": {
+        "autoClearConsole": true,
+        "commands": [
+            {
+                "match": ".toml$",
+                "cmd": "echo `date +\"%Y-%m-%d %H:%M:%S\"`&&cd ${workspaceRoot} && bat ${file}"
+            }
+        ]
+    }
+}
