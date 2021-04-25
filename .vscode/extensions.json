@@ -2,6 +2,7 @@
     "recommendations": [
         "ms-ceintl.vscode-language-pack-zh-hans",
         "tamasfe.even-better-toml",
-        "emeraldwalk.runonsave"
+        "emeraldwalk.runonsave",
+        "rubymaniac.vscode-direnv"
     ]
 }
