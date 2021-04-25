@@ -1,0 +1,26 @@
+width: 16
+name: 报告附注
+c1: A
+c2: B
+font_en: Arial Narrow
+font_cn: 仿宋_GB2312
+border:
+  table:
+    top:
+      style: single
+      color: "000000"
+      size: 18
+    bottom:
+      style: single
+      color: "000000"
+      size: 18
+  header:
+    bottom:
+      style: single
+      color: "000000"
+      size: 4
+  end:
+    top:
+      style: single
+      color: "000000"
+      size: 4
